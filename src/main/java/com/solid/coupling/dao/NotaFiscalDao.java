@@ -1,7 +1,7 @@
 package com.solid.coupling.dao;
 
 import com.solid.coupling.model.NotaFiscal;
-import com.solid.coupling.service.NotaFiscalObserver;
+import com.solid.coupling.contract.NotaFiscalObserver;
 
 public class NotaFiscalDao implements NotaFiscalObserver {
 

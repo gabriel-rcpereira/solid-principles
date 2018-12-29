@@ -1,5 +1,6 @@
 package com.solid.coupling.service;
 
+import com.solid.coupling.base.ImpostoDecorator;
 import com.solid.coupling.model.Fatura;
 
 public class IcmsService extends ImpostoDecorator {

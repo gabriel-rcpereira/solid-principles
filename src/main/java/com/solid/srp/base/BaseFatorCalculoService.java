@@ -1,5 +1,6 @@
-package com.solid.srp.service;
+package com.solid.srp.base;
 
+import com.solid.srp.contract.FatorCalculo;
 import com.solid.srp.model.Funcionario;
 
 public abstract class BaseFatorCalculoService implements FatorCalculo {

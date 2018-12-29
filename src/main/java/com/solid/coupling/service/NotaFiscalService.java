@@ -1,6 +1,7 @@
 package com.solid.coupling.service;
 
-import com.solid.coupling.dao.NotaFiscalDao;
+import com.solid.coupling.base.ImpostoDecorator;
+import com.solid.coupling.contract.NotaFiscalObserver;
 import com.solid.coupling.model.Fatura;
 import com.solid.coupling.model.NotaFiscal;
 

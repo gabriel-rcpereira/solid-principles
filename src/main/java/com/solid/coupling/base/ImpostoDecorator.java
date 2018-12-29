@@ -1,4 +1,4 @@
-package com.solid.coupling.service;
+package com.solid.coupling.base;
 
 import com.solid.coupling.model.Fatura;
 

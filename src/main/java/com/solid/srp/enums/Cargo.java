@@ -1,7 +1,7 @@
 package com.solid.srp.enums;
 
 import com.solid.srp.service.DezOuVintePorcentoService;
-import com.solid.srp.service.FatorCalculo;
+import com.solid.srp.contract.FatorCalculo;
 import com.solid.srp.service.QuinzeOuVinteCincoPorcentoService;
 
 public enum Cargo {

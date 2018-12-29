@@ -1,4 +1,4 @@
-package com.solid.srp.service;
+package com.solid.srp.contract;
 
 import com.solid.srp.model.Funcionario;
 

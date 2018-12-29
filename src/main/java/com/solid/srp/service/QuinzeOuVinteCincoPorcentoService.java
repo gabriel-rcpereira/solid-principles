@@ -1,5 +1,6 @@
 package com.solid.srp.service;
 
+import com.solid.srp.base.BaseFatorCalculoService;
 import com.solid.srp.model.Funcionario;
 
 public class QuinzeOuVinteCincoPorcentoService extends BaseFatorCalculoService {

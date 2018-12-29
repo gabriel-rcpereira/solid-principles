@@ -1,5 +1,6 @@
 package com.solid.coupling.service;
 
+import com.solid.coupling.contract.NotaFiscalObserver;
 import com.solid.coupling.model.NotaFiscal;
 
 public class EmailService implements NotaFiscalObserver {

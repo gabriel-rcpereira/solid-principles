@@ -1,5 +1,6 @@
 package com.solid.coupling;
 
+import com.solid.coupling.base.ImpostoDecorator;
 import com.solid.coupling.dao.NotaFiscalDao;
 import com.solid.coupling.model.Fatura;
 import com.solid.coupling.model.NotaFiscal;
@@ -19,7 +20,7 @@ public class CouplingMain {
         notaFiscalService.addObserver(new EmailService());
         notaFiscalService.addObserver(new NotaFiscalDao());
         NotaFiscal notaFiscal = notaFiscalService.create(fatura);
-        
+
         System.out.println("Valor impostos:");
         System.out.println(notaFiscal.getImpostos());
 

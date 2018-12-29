@@ -1,4 +1,4 @@
-package com.solid.coupling.service;
+package com.solid.coupling.contract;
 
 import com.solid.coupling.model.NotaFiscal;
 
